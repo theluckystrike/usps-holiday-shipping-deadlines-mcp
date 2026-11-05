@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/usps-holiday-shipping-deadlines-mcp",
+  "title": "USPS Holiday Shipping Deadlines MCP",
+  "description": "USPS holiday shipping deadlines: Christmas send-by dates, days left, military and international.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/usps-holiday-shipping-deadlines-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usps-holiday-shipping-deadlines-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}

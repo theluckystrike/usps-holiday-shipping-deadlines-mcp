@@ -1,0 +1,6 @@
+[
+  ["get_usps_holiday_shipping_deadlines", {}],
+  ["check_holiday_ship_by_date", { "destination": "Germany", "ship_date": "2026-12-10" }],
+  ["check_holiday_ship_by_date", { "destination": "lower48", "ship_date": "2026-12-18" }],
+  ["get_military_mail_deadline", { "zip": "09021" }]
+]
